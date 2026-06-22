@@ -1,0 +1,93 @@
+2026-06-15 16:02:38,707 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doctype': 'Builder Page', 'name': 'page-1fd7b14e', 'fieldname': {'page_data_script': 'const products = await frappe.db.get_list("Product", {\n    fields: [\n        "name",\n        "product_name",\n        "price",\n        "image",\n        "category",\n        "stock"\n    ],\n    limit: 50\n});\n\nreturn {\n    products\n};'}, 'cmd': 'frappe.client.set_value'}
+2026-06-15 16:03:13,906 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doctype': 'Builder Page', 'name': 'page-1fd7b14e', 'fieldname': {'page_data_script': 'const products = await frappe.db.get_list("Product", {\n    fields: [\n        "name",\n        "product_name",\n        "price",\n        "image",\n        "category",\n        "stock"\n    ],\n    limit: 50\n});\n\nreturn {\n    products\n};'}, 'cmd': 'frappe.client.set_value'}
+2026-06-15 16:09:46,300 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doc': '{"name":"Product","owner":"Administrator","creation":"2026-06-15 16:06:40.920492","modified":"2026-06-15 16:09:34.517694","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"By fieldname","allow_rename":1,"module":"Custom","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":20,"allow_bulk_edit":1,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"docstatus":0,"doctype":"DocField","name":"o01r3b9e2n","__unsaved":1,"owner":"Administrator","fieldtype":"Column Break","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"mask":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"button_color":"","hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"alignment":"","show_description_on_click":0,"parent":"Product","parentfield":"fields","parenttype":"DocType","idx":1,"__run_link_triggers":1,"fieldname":"productname_column","label":"ProductName","creation":"2026-06-15 16:06:40.920492","modified":"2026-06-15 16:09:34.517694","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"o014nib7h2","__unsaved":1,"owner":"Administrator","fieldtype":"Attach Image","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"mask":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"button_color":"","hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"alignment":"","show_description_on_click":0,"parent":"Product","parentfield":"fields","parenttype":"DocType","idx":2,"__run_link_triggers":1,"fieldname":"attach_image_epci","label":"","creation":"2026-06-15 16:06:40.920492","modified":"2026-06-15 16:09:34.517694","modified_by":"Administrator","length":0,"columns":0}],"permissions":[{"name":"m9plot8cof","owner":"Administrator","creation":"2026-06-15 16:06:40.920492","modified":"2026-06-15 16:09:34.517694","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"mask":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"impersonate":0,"parent":"Product","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1,"autoname":"field:"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-06-15 16:20:17,032 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'cmd': 'builder.domain.get_server_ip'}
+2026-06-15 16:20:17,032 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'cmd': 'builder.domain.get_domains'}
+2026-06-15 16:20:19,385 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doctype': 'Builder Settings', 'name': 'Builder Settings', 'fieldname': {'ai_api_key': 'Avinav@45'}, 'cmd': 'frappe.client.set_value'}
+2026-06-15 16:20:59,334 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'cmd': 'builder.domain.get_domains'}
+2026-06-15 16:20:59,335 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'cmd': 'builder.domain.get_server_ip'}
+2026-06-15 16:31:50,352 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doctype': 'Builder Page', 'name': 'page-1fd7b14e', 'fieldname': {'page_data_script': 'const products = await frappe.db.get_list("Product", {\n    fields: ["name", "product_name", "price"]\n});\n\nreturn {\n    products\n};'}, 'cmd': 'frappe.client.set_value'}
+2026-06-15 16:37:02,840 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:37:08,654 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:38:27,164 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:38:46,181 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:39:03,492 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:39:14,042 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:40:52,820 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:42:29,773 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:43:06,469 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:43:22,159 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:43:42,909 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:44:17,546 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:44:29,389 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 16:45:04,735 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-15 17:07:10,869 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'dt': 'Builder Page', 'dn': 'page-1fd7b14e', 'method': 'get_page_data', 'args': {'route_variables': {}}, 'cmd': 'run_doc_method'}
+2026-06-17 12:20:06,404 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"WhatsApp Message","name":"new-whatsapp-message-ukdiqijkgo","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Outgoing","use_template":0,"message_type":"Manual","content_type":"text","buttons":"{}","is_reply":0,"__run_link_triggers":1}', 'cmd': 'frappe.client.save'}
+2026-06-18 12:43:32,192 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"WhatsApp Chatbot Flow","name":"new-whatsapp-chatbot-flow-djnhrrmyoc","__islocal":1,"__unsaved":1,"owner":"Administrator","enabled":1,"initial_message_type":"Text","steps":[{"docstatus":0,"doctype":"WhatsApp Flow Step","name":"new-whatsapp-flow-step-namjrobdrj","__islocal":1,"__unsaved":1,"owner":"Administrator","input_type":"Select","message_type":"Text","retry_on_invalid":1,"max_retries":3,"parent":"new-whatsapp-chatbot-flow-djnhrrmyoc","parentfield":"steps","parenttype":"WhatsApp Chatbot Flow","idx":1,"step_name":"plant_options","message":"Please select the plant name ","store_as":"plant_name","options":"Tomato|Potato|Barley|Banana|Mango","validation_regex":"^(Tomato|Potato|Barley|Banana|Mango)$","validation_error":"Please select a valid plant from the list.","next_step":"upload_image"}],"on_complete_action":"None","timeout_message":"Your session has timed out. Please start again.","cancel_keywords":"cancel, stop, quit, exit","flow_name":"disease_plant","description":"this is to connect to the whatsapp flow .","trigger_keywords":"Hi, Hello,","initial_message":"Please select plant type."}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-06-18 12:43:43,655 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"WhatsApp Chatbot Flow","name":"new-whatsapp-chatbot-flow-djnhrrmyoc","__islocal":1,"__unsaved":1,"owner":"Administrator","enabled":1,"initial_message_type":"Text","steps":[{"docstatus":0,"doctype":"WhatsApp Flow Step","name":"new-whatsapp-flow-step-namjrobdrj","__islocal":1,"__unsaved":1,"owner":"Administrator","input_type":"Select","message_type":"Text","retry_on_invalid":1,"max_retries":3,"parent":"new-whatsapp-chatbot-flow-djnhrrmyoc","parentfield":"steps","parenttype":"WhatsApp Chatbot Flow","idx":1,"step_name":"plant_options","message":"Please select the plant name ","store_as":"plant_name","options":"Tomato|Potato|Barley|Banana|Mango","validation_regex":"^(Tomato|Potato|Barley|Banana|Mango)$","validation_error":"Please select a valid plant from the list.","next_step":"upload_image"}],"on_complete_action":"None","timeout_message":"Your session has timed out. Please start again.","cancel_keywords":"cancel, stop, quit, exit","flow_name":"disease_plant","description":"this is to connect to the whatsapp flow .","trigger_keywords":"Hi, Hello,","initial_message":"Please select plant type."}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-06-19 11:40:04,958 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"WhatsApp Message","name":"new-whatsapp-message-ochzxgbyaq","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Incoming","use_template":0,"message_type":"Manual","content_type":"image","buttons":"{}","is_reply":0,"__run_link_triggers":1,"label":"hello","message":"this is testing"}', 'cmd': 'frappe.client.save'}
+2026-06-19 11:54:16,495 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"WhatsApp Message","name":"new-whatsapp-message-ochzxgbyaq","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Incoming","use_template":0,"message_type":"Manual","content_type":"image","buttons":"{}","is_reply":0,"__run_link_triggers":false,"label":"hello","message":"this is testing"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-06-19 13:03:09,257 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"WhatsApp Message","name":"new-whatsapp-message-cexdwtyjiu","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Outgoing","use_template":0,"message_type":"Manual","content_type":"text","buttons":"{}","is_reply":0,"__run_link_triggers":1,"label":"nkkahkjfgkja","to":"+91 234242402","message":"fsqfsfsfsaf"}', 'cmd': 'frappe.client.save'}
+2026-06-22 11:29:34,147 ERROR frappe New Exception collected in error log
+Site: localsite.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"WhatsApp Message","name":"new-whatsapp-message-idndbifjop","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Incoming","use_template":0,"message_type":"Manual","content_type":"image","buttons":"{}","is_reply":0,"__run_link_triggers":1,"label":"lakflgsdkllskhlsd","message":"dgfsdg"}', 'cmd': 'frappe.client.save'}

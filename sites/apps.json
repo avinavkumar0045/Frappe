@@ -1,0 +1,61 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.20.0"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "e2a1f6057d13beed7a8b32e45847851339ee94ff",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "17.0.0-dev"
+    },
+    "builder": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "39aad09485196d8d02f9af55850495f06e31e2f3",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "1.0.0-dev"
+    },
+    "frappe_whatsapp": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "8441c3820c98828aa1f53faf47e7392d7d270748",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "1.0.12"
+    },
+    "frappe_whatsapp_chatbot": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "e98a655af42be5c0e8cc3912780418e2206d5bdb",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "education": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "80c7a6dc79f1d037d09c9ecda5d384bc880d1be6",
+            "branch": "version-16"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "16.0.1"
+    }
+}
