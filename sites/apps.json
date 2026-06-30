@@ -57,5 +57,15 @@
         "required": [],
         "idx": 6,
         "version": "16.0.1"
+    },
+    "sheets": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "bdf1427f6a7916dbe96201418004d5fef1adfa5e",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.1"
     }
 }

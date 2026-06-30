@@ -1,5 +1,6 @@
 frappe
 frappe_whatsapp
+sheets
 education
 frappe_whatsapp_chatbot
 erpnext
